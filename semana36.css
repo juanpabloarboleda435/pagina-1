@@ -1,3 +1,7 @@
+body{
+	background: url(paisaje.jpg) fixed no-repeat;
+	background-size:cover;
+}
 .ci{
 	background-image: url(yo.jpg);
 	background-repeat: no-repeat;
@@ -10,6 +14,40 @@
 
 
 }
+.r1{
+	position: absolute;
+	height: 900px;
+	width: 700px;
+	background-color: yellow;
+	top: 200px;
+	left: 350px;
+}
+.r2{
+	position: relative;
+	height: 550px;
+	width: 500px;
+	background-color: blue;
+	top: 350px;
+	left: 450px;
+}
+.r3{
+	position: relative;
+	height: 450px;
+	width: 500px;
+	background-color: red;
+	top: 400px;
+	left: 450px;
+}
+.x1{
+	position: fixed;
+	background-color: red;
+}
+.hola{
+	width: 300px;
+	height: 1000px;
+	background-color: blue;
+}
+
 .p1{
 position:absolute;
 width:100%; 
@@ -31,36 +69,6 @@ width:60%;
 height:50%;
 top: 30%;
 left: 22%;
-}
-.re{
-	background-image: url(jose2.png);
-	background-repeat: no-repeat;
-	background-size: 50%;
-	width: 320px;
-	height: 700px;
-	position: absolute;
-	left: 70%;
-	top: 40%;
-}
-.re2{
-	background-image: url(mason.png);
-	background-repeat: no-repeat;
-	background-size: 50%;
-	width: 320px;
-	height: 700px;
-	position: absolute;
-	left: 20%;
-	top: 40%;
-}
-.re3{
-	background-image: url(robert.png);
-	background-repeat: no-repeat;
-	background-size: 42%;
-	width: 320px;
-	height: 700px;
-	position: absolute;
-	left: 50%;
-	top: 44%;
 }
 .sci{
 	font-size:25px;
@@ -136,145 +144,115 @@ left: 22%;
     color: white;
     background-color: black;
 }
-.cie1{
-	background-image: url(salon.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 70%;
-	height: 80%;
-	position: absolute;
-	left: 12%;
-	top: 10%;
-
+.b6{
+ 	position: absolute;
+	top: 90px;
+	left: 90px;
+	width: 150px;
+	height: 50px;
+	    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: black;
 }
-.cf1{
-
-	background-image: url(jose2.png);
-	background-repeat: no-repeat;
-	background-size: 50%;
-	width: 320px;
-	height: 700px;
+.b7{
 	position: absolute;
-	left: 70%;
-	top: 0%;
-
+	position: fixed;
+	top: 1px;
+	left: 150px;
+	width: 180px;
+	height: 80px;
+	    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: black;
 }
-.cf1s{
-
-
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 500px;
-	height: 300px;
+.b8{
 	position: absolute;
-	left: 300px;
-	top: 0%;
-	border: 2px black solid;
-	color: white;
-
+	position: fixed;
+	top: 1px;
+	left: 550px;
+	width: 180px;
+	height: 80px;
+	    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: black;
 }
-.cf2{
-
-	background-image: url(mason.png);
-	background-repeat: no-repeat;
-	background-size: 50%;
-	width: 300px;
-	height: 400px;
+.b9{
 	position: absolute;
-	left: 70%;
-	top: 55%;
-
+	position: fixed;
+	top: 1px;
+	left: 950px;
+	width: 180px;
+	height: 80px;
+	    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: black;
 }
-.cf2s{
-
-
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 500px;
-	height: 300px;
+.b10{
 	position: absolute;
-	left: 300px;
-	top: 50%;
-	border: 2px black solid;
-	color: white;
-
+	top: 1px;
+	left: 1000px;
+	width: 150px;
+	height: 50px;
+	    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: black;
 }
-.cf3{
-
-	background-image: url(marily.png);
-	background-repeat: no-repeat;
-	background-size: 250px;
-	width: 400px;
-	height: 400px;
+.b11{
 	position: absolute;
-	left: 70%;
-	top: 105%;
-
+	position: fixed;
+	top: 500px;
+	left: 1100px;
+	width: 150px;
+	height: 80px;
+	    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: black;
 }
-.cf3s{
-
-
-	background-repeat: no-repeat;
-	background-size: 10%;
-	width: 500px;
-	height: 300px;
+.j1{
 	position: absolute;
-	left: 300px;
-	top: 110%;
-	border: 2px black solid;
-	color: white;
-
+	top: 140px;
+	left: 600px;
 }
-.cf4{
-
-	background-image: url(robert.png);
-	background-repeat: no-repeat;
-	background-size: 50%;
-	width: 400px;
-	height: 340px;
-	position: absolute;
-	left: 70%;
-	top: 170%;
-
+.j2{
+	position: relative;
+	top: 370px;
+	left: 550px;
 }
-.cf4s{
-
-
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 500px;
-	height: 300px;
-	position: absolute;
-	left: 300px;
-	top: 170%;
-	border: 2px black solid;
-	color: white;
-
+.j3{
+	position: relative;
+	top: 450px;
+	left: 500px;
 }
-.cf5{
-
-	background-image: url(papas.png);
-	background-repeat: no-repeat;
-	background-size: 400px;
-	width: 400px;
-	height: 400px;
-	position: absolute;
-	left: 70%;
-	top: 220%;
-
+.p{
+	position: fixed;
 }
-.cf5s{
-
-
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 500px;
-	height: 300px;
-	position: absolute;
-	left: 300px;
-	top: 230%;
-	border: 2px black solid;
-	color: white;
+.p3{
+	position: fixed;
+	left: 3px;
+	top: 30px;
+}
+.p4{
+	position: fixed;
+	left: 3px;
+	top: 50px;
 }
 .a3{
 	background-color: black;
@@ -303,4 +281,181 @@ left: 22%;
 	height: 50%;
 	left: 20%;
 	display: block;
-}	
+}
+.gran{
+	position: absolute;
+	top: 1200px;
+	left: 350px;
+	height: 500px;
+	width: 700px;
+	background: red;
+	z-index: 4;
+}
+.e1{
+	position: absolute;
+	top: 400px;
+	left: 90px;
+	height: 50px;
+	width: 50px;
+	background: blue;
+	z-index: 12;
+	border-radius: 25px;
+}
+.con1{
+	position: absolute;
+	top: -350px;
+	left: -40px;
+	height: 250px;
+	width: 600px;
+	background: blue;
+	z-index: 1000;
+	border:solid black 2px;
+	display: none;
+}
+.e1:hover .con1{
+	display: block;
+}
+.e2{
+	position: absolute;
+	top: 400px;
+	left: 160px;
+	height: 50px;
+	width: 50px;
+	background: blue;
+	z-index: 12;
+	border-radius: 25px;
+}
+.con2{
+	position: absolute;
+	top: -350px;
+	left: -110px;
+	height: 250px;
+	width: 600px;
+	background: blue;
+	z-index: 1000;
+	border:solid black 2px;
+	display: none;
+}
+.e2:hover .con2{
+	display: block;
+}
+.e3{
+	position: absolute;
+	top: 400px;
+	left: 230px;
+	height: 50px;
+	width: 50px;
+	background: blue;
+	z-index: 12;
+	border-radius: 25px;
+}
+.con3{
+	position: absolute;
+	top: -350px;
+	left: -180px;
+	height: 250px;
+	width: 600px;
+	background: blue;
+	z-index: 1000;
+	border:solid black 2px;
+	display: none;
+}
+.e3:hover .con3{
+	display: block;
+}
+.e4{
+	position: absolute;
+	top: 400px;
+	left: 300px;
+	height: 50px;
+	width: 50px;
+	background: blue;
+	z-index: 12;
+	border-radius: 25px;
+}
+.con4{
+	position: absolute;
+	top: -350px;
+	left: -250px;
+	height: 250px;
+	width: 600px;
+	background: blue;
+	z-index: 1000;
+	border:solid black 2px;
+	display: none;
+}
+.e4:hover .con4{
+	display: block;
+}
+.e5{
+	position: absolute;
+	top: 400px;
+	left: 380px;
+	height: 50px;
+	width: 50px;
+	background: blue;
+	z-index: 12;
+	border-radius: 25px;
+}
+.con5{
+	position: absolute;
+	top: -350px;
+	left: -340px;
+	height: 250px;
+	width: 600px;
+	background: blue;
+	z-index: 1000;
+	border:solid black 2px;
+	display: none;
+}
+.e5:hover .con5{
+	display: block;
+}
+.e6{
+	position: absolute;
+	top: 400px;
+	left: 460px;
+	height: 50px;
+	width: 50px;
+	background: blue;
+	z-index: 12;
+	border-radius: 25px;
+}
+.con6{
+	position: absolute;
+	top: -350px;
+	left: -410px;
+	height: 250px;
+	width: 600px;
+	background: blue;
+	z-index: 1000;
+	border:solid black 2px;
+	display: none;
+}
+.e6:hover .con6{
+	display: block;
+}
+.e7{
+	position: absolute;
+	top: 400px;
+	left: 540px;
+	height: 50px;
+	width: 50px;
+	background: blue;
+	z-index: 12;
+	border-radius: 25px;
+}
+.con7{
+	position: absolute;
+	top: -350px;
+	left: -500px;
+	height: 250px;
+	width: 600px;
+	background: blue;
+	z-index: 1000;
+	border:solid black 2px;
+	display: none;
+}
+.e7:hover .con7{
+	display: block;
+}
